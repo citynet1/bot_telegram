@@ -10,7 +10,7 @@ if (!empty($_SESSION['admin_logged_in'])) {
 }
 
 // Password yang benar (ganti dengan password kamu sendiri)
-$password_benar = '234988';
+$password_benar = 'jhon102017';
 
 if (isset($_POST['password'])) {
     if ($_POST['password'] === $password_benar) {
